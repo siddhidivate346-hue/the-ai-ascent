@@ -1,0 +1,28 @@
+communication_skill = int(input("enter your communication skill rating between 1-10: "))
+technical_skill = int(input("enter your technical skill rating between 1-10: "))
+consistency = int(input("enter your consistency rating between 1-10: "))
+
+if communication_skill >= 7 and technical_skill >= 7 and consistency >= 7:
+    print("Strong leadership potential")
+
+elif communication_skill >= 7 and technical_skill >= 7 and consistency < 7:
+    print("Strong communication & technical skills — improve consistency.")
+
+elif communication_skill >= 7 and technical_skill < 7:
+    print("Work on technical depth")
+
+elif technical_skill >= 7 and communication_skill < 7:
+    print("Improve communication")
+
+else:
+    print("Focus on improving all areas, all the best")
+
+answer = input("Are you willing to improve daily? (yes/no): ")
+
+if answer.lower() == "yes":
+    print("Growth mindset detected")
+else:
+    print("Leadership requires commitment.")
+
+
+      
