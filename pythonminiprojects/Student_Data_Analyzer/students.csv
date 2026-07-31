@@ -1,0 +1,11 @@
+student_id,name,marks,city,course,attendance
+101,Amit,78.0,Pune ,AI,85
+102,Neha,, MUMBAI,Data Science,90
+103,Raj,92.0,delhi,Web Dev,95
+104,Pooja,65.0,Pune,AI,70
+105,Karan,88.0,DELHI,Cyber Security,88
+106,Sneha,,mumbai ,Data Science,76
+107,Arjun,55.0,Bengluru,AI,60
+108,Riya,73.0, pune,Web Dev,82
+109,Vikram,95.0,DELHI ,Cyber Security,98
+110,Anjali,,Mumbai,AI,79
